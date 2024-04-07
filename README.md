@@ -31,12 +31,6 @@ The project is organized into the following directories and files:
 ### Prerequisites
 Ensure you have Python installed on your system. If not, you can download it from [Python Official Website](https://www.python.org/downloads/).
 
-### Installation
-Clone the repository and navigate to the project directory:
-```bash
-git clone https://github.com/your-username/FacePy.git
-cd FacePy
-
 ## Contributing
 If you'd like to contribute to the project, follow these steps:
 1. Fork the repository.
@@ -48,3 +42,10 @@ If you'd like to contribute to the project, follow these steps:
 
 ## License
 This project is licensed under the Apache License.
+
+### Installation
+Clone the repository and navigate to the project directory:
+```bash
+git clone https://github.com/your-username/FacePy.git
+cd FacePy
+
