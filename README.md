@@ -36,3 +36,15 @@ Clone the repository and navigate to the project directory:
 ```bash
 git clone https://github.com/your-username/FacePy.git
 cd FacePy
+
+## Contributing
+If you'd like to contribute to the project, follow these steps:
+1. Fork the repository.
+2. Create a new branch: git checkout -b feature-name.
+3. Implement your changes, write tests, improve documentation.
+4. Commit your changes: git commit -m 'Add some feature'.
+5. Push to the branch: git push origin feature-name.
+6. Submit a pull request.
+
+## License
+This project is licensed under the Apache License.
