@@ -1,32 +1,38 @@
-# Face-recognition-opencv
-Face Recognition with OpenCV and face_recognition
-This repository contains a Python script for performing face recognition using the OpenCV and face_recognition libraries. The script captures live video from a webcam, detects faces in the video stream, and recognizes known faces by comparing them with pre-loaded images.
+# FacePy: Vision Based Attendance System In Classroom
 
-Features
-Dynamic Loading: Easily load multiple face images for recognition.
-Real-time Recognition: Recognize faces in real-time video streams.
-Multiple Person Support: Recognize and differentiate between multiple persons.
-Requirements
-OpenCV
-face_recognition
-Usage
-Install the required libraries:
+![Python](https://img.icons8.com/color/48/000000/python.png)
 
+## Overview
+FacePy is an innovative attendance system developed to automate the process of taking attendance in classrooms using vision-based technology. Leveraging the power of Facial Recognition, OpenCV, and databases, this system offers a reliable and accurate method for recording individual presence, eliminating the need for manual attendance marking and reducing administrative workload.
 
-pip install opencv-python face_recognition
+## Features
+- **Automated Attendance:** Utilizes Facial Recognition technology to automatically identify and record students' attendance as they enter the classroom.
+- **Real-Time Monitoring:** Provides real-time monitoring and logging of attendance data, allowing educators to track attendance status instantly.
+- **Database Integration:** Seamlessly integrates with databases to store and manage attendance records securely, ensuring data consistency and reliability.
+- **User-Friendly Interface:** Offers a simple and intuitive interface for easy setup, configuration, and usage, making it accessible for educators and administrators.
+- **Customizable Settings:** Allows customization of attendance parameters, recognition thresholds, and notifications to suit specific classroom environments and requirements.
 
-Specify the paths to the persons' image files and associated names in the script.
+## Technologies Used
+- **Programming Language:** ![Python](https://img.icons8.com/color/24/000000/python.png) Python
+- **Facial Recognition:** OpenCV, Dlib
+- **Database:** SQLite, MySQL
+- **User Interface:** Tkinter, PyQt
+- **Version Control:** Git, GitHub
 
-Run the script:
+## Project Structure
+The project is organized into the following directories and files:
+- **src:** Source code files containing the main implementation of the facial recognition attendance system.
+- **database:** Files related to database setup, schema, queries, and data management.
+- **utils:** Utility files containing helper functions, configurations, and constants.
+- **tests:** Unit tests and integration tests to ensure functionality and performance.
+- **docs:** Documentation, user guides, and project report.
 
-python Face-detect-vdo.py
-Press 'q' to exit the video stream.
+## Getting Started
+### Prerequisites
+Ensure you have Python installed on your system. If not, you can download it from [Python Official Website](https://www.python.org/downloads/).
 
-Configuration
-Adjust the tolerance parameter in compare_faces for fine-tuning recognition accuracy.
-Contributing
-Contributions are welcome! Feel free to open issues or pull requests.
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
+### Installation
+Clone the repository and navigate to the project directory:
+```bash
+git clone https://github.com/your-username/FacePy.git
+cd FacePy
